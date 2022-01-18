@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson1and2;
 
 public interface Actions {
     void run();

@@ -1,11 +1,11 @@
-package Lesson2;
+package Lesson1and2;
 
-public class Human implements Actions {
+public class Robot implements Actions {
     private String name;
     private int runDistance;
     private int jumpHeight;
 
-    public Human(String name, int distance, int jumpHeight) {
+    public Robot(String name, int distance, int jumpHeight) {
         this.name = name;
         this.runDistance = distance;
         this.jumpHeight = jumpHeight;
@@ -13,12 +13,12 @@ public class Human implements Actions {
 
     @Override
     public void run() {
-        System.out.println("Человек " + this.name + " пробежал " + this.getRunDistance());
+        System.out.println("Андроид  " + this.name + " пробежал " + this.getRunDistance());
     }
 
     @Override
     public void jump() {
-        System.out.println("Человек " + this.name + " прыгнул " + this.getJumpHeight());
+        System.out.println("Андроид  " + this.name + " прыгнул " + this.getJumpHeight());
     }
 
     @Override
@@ -30,5 +30,4 @@ public class Human implements Actions {
     public int getJumpHeight() {
         return this.jumpHeight;
     }
-
 }

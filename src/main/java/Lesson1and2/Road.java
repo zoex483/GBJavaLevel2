@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson1and2;
 
 public class Road extends Barrier {
     private int length;
