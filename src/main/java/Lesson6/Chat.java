@@ -6,7 +6,7 @@ import java.net.Socket;
 class Chat {
 
     private final String SERVER_ADDR = "localhost";
-    private final int SERVER_PORT = 8189;
+    private final int SERVER_PORT = 8080;
 
     public Chat() {
         try {
